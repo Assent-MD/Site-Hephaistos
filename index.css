@@ -3,17 +3,19 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
-    position: sticky;
-    height:100px;
-    /* background-color: gray; */
+    height:130px;
     position: relative;
-    position:sticky;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: white;
 }
  nav img{
     position: absolute;
     width:100px;
     height: 100px;
-    bottom:-10px;
+    bottom:10px;
     left: 100px;
 }
 nav img:hover{
@@ -49,6 +51,7 @@ nav h4 a:hover{
     object-fit: cover;
 } */
 section{
+    margin-top: 130px;
     
 
  }
@@ -102,16 +105,185 @@ section{
 }
 .sous-text h3 span{
     margin-left:30px;
-    background-color: rgb(218, 180, 13);
+    background-color:rgb(250, 185, 7);
 }
 .sous a{
     text-decoration: none;
     font-weight:bolder;
     padding:10px 40px;
-     background-color: rgb(218, 180, 13);
+     background-color:rgb(250, 185, 7);
 }
 .sous a:hover{
     background-color:rgb(7, 7, 68);
     color: white;
     transition:0.5s;
+}
+.corp1 .ligne{
+    position: absolute;
+    width:5px;
+    height:50px;
+    background-color:rgb(250, 185, 7);
+    top:96%;
+    left:50%;
+}
+                /* Section 2 */
+
+.section2{
+    margin-top:0;
+    width:100%;
+    height:200px;
+    position: relative;
+}
+.section2 h2{
+    position: absolute;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    margin-left:43%;
+    color:rgb(7, 7, 68);
+    top:10px;
+}
+section .ligne2{
+    width:50px;
+    height:5px;
+    background-color: rgb(250, 185, 7);
+    margin-left:49%;
+    top:80px;
+    position: absolute;
+}
+
+                 /* section 3 */
+
+.section3{
+    position: relative;
+    margin-top: 0;
+    width:100%;
+    height:400px;
+    background-color: grey;
+}
+.images{
+    margin-left:60px;
+    position: absolute;
+    width:100%;
+    height:400px;
+    display: flex;
+    gap:20px;
+    bottom:70px;
+}
+.image{
+    width:390px;
+    height:255px;
+    
+}
+.left{
+    background:url(Image/encart-2.jpg) ;
+    background-repeat: no-repeat;
+    object-fit: cover; 
+}
+.center{
+    background:url(Image/encart-3.jpg) ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.right{
+    background:url(Image/encart-1.jpg) ;
+    background-repeat: no-repeat;
+    object-fit: cover;
+}
+.bleu{
+    cursor: pointer;
+    position: relative;
+    opacity: calc(0.8);
+    background-color: rgb(9, 9, 71);
+    width:100%;
+    height: 100%;
+}
+.bleu:hover{
+    background: none;
+    transition:1s;
+}
+.image:hover{
+    transform: scale(1.05);
+    transition:1s;
+}
+.images .carre{
+    cursor: pointer;
+    position: absolute;
+    top:130px;
+    left:120px;
+    width:150px;
+    height:50px;
+    color: white;
+    border:2px solid rgb(250, 185, 7);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.images .carre span{
+    font-weight:1000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+.images .img1{
+    z-index:1;
+    position: absolute;
+    top:80px;
+    left:170px;
+}
+
+.images .carre2{
+    cursor: pointer;
+    position: absolute;
+    top:130px;
+    left:100px;
+    width:200px;
+    height:50px;
+    color: white;
+    border:2px solid rgb(250, 185, 7);
+    text-align: center;
+    padding-bottom: 20px;
+}
+.images .carre2 span{
+    font-weight:1000;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+.images .img2{
+    z-index:1;
+    position: absolute;
+    top:80px;
+    left:170px;
+}
+
+          /* section4 */
+
+.section4{
+    margin-top:0;
+    width: 100%;
+    height:800px;
+    /* background-color: red; */
+    position: relative;
+}
+.text2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size:22px;
+    position: absolute;
+    left:28%;
+    top:20px;
+    color: rgb(7, 7, 68);
+}
+.section4 .ligne3{
+    width:50px;
+    height:5px;
+    background-color: rgb(250, 185, 7);
+    margin-left:47%;
+    top:89px;
+    position: absolute;
+}
+.section4 p{
+    position: absolute;
+    top:120px;
+    left:100px;
+    font-size: x-large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(22, 47, 94);
 }
