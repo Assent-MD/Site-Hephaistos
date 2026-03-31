@@ -3,6 +3,7 @@ body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 nav{
+    border-bottom:2px solid black;
     height:130px;
     position: relative;
     position:fixed;
@@ -259,8 +260,7 @@ section .ligne2{
 .section4{
     margin-top:0;
     width: 100%;
-    height:800px;
-    /* background-color: red; */
+    height:600px;
     position: relative;
 }
 .text2{
@@ -279,11 +279,38 @@ section .ligne2{
     top:89px;
     position: absolute;
 }
-.section4 p{
+.section4 .tt3{
     position: absolute;
     top:120px;
     left:100px;
     font-size: x-large;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: rgb(22, 47, 94);
+}
+.conteneur .h3{
+    font-size:30px;
+    color: rgb(202, 132, 1);
+}
+.conteneur{
+    display:flex;
+    gap:60px;
+    position: absolute;
+    top:45%;
+    left:95px;
+}
+.conteneur .text5{
+    font-size:18px;
+    color: rgb(22, 47, 94);
+}
+
+
+/* section6 */
+.conteneur5{
+    width: 100%;
+    height:400px;
+}
+.conteneur5 .text6{
+    color: rgb(202, 132, 1);
+    margin-left:90px;
+    padding-top:20px;
 }
